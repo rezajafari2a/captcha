@@ -1,8 +1,8 @@
 # captcha - PHP
 This captcha code is very simple and easy to use. it's made two random numbers and asks the user to calculate the sum or subtraction.
 # Methods:
-1.makecaptcha()
-2.checkcaptcha(string)
+ Markup : - makecaptcha()
+          - checkcaptcha(string)
 # Description
 1.makecaptcha():
 This method generates captcha and return string that the user will see. Also, you can store strcode string into session, DB etc.
