@@ -8,7 +8,8 @@ This captcha code is very simple and easy to use. it's made two random numbers a
 makecaptcha():
 This method generates captcha and return string that the user will see. Also, you can store strcode string into session, DB etc.
 If want use checkcaptcha method you should store 'strcode' in $_SESSION['stcode'].
-Markup: --------------- 
+
+
 checkcaptcha(string)
           
 This method validates user input and return binary value. For using this method you should store 'strcode' into $_SESSION['stcode'] or
