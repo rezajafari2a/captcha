@@ -15,3 +15,5 @@ checkcaptcha(string):
           
 This method validates user input and return binary value. For using this method you should store 'strcode' into $_SESSION['stcode'] or
 you can change the name of the variable.
+
+Markup : ![picture alt](https://raw.githubusercontent.com/rezajafari2a/captcha/master/Capture.PNG "کپچا فارسی")
